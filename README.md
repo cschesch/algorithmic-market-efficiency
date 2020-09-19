@@ -1,6 +1,6 @@
 # Algorithmic Market Efficiency - HEC Master Thesis
 
-In this repository, you can find the code for the Master Thesis _"Algorithmic Market Efficiency? Machine Learning, Outperformance and Arbitrage Activity along the Cross-Section of Stock Returns"_, which I wrote for the MSc in International Finance at HEC under the supervision of Prof. Augustin Landier. You can find the thesis [here](https://drive.google.com/file/d/1mbC-aFKY6_nBEzVhSqa1KPSpBdCt7SkG/view?usp=sharing), and the corresponding slides [here](https://drive.google.com/file/d/1xKYQkCTW82cJZc8abzg40IMOlKvsvzug/view?usp=sharing).
+In this repository, you can find the code for the Master Thesis _"Algorithmic Market Efficiency? Machine Learning, Outperformance and Arbitrage Activity along the Cross-Section of Stock Returns"_, which I wrote for the MSc in International Finance at HEC under the supervision of Prof. Augustin Landier. You can find the thesis [here](https://drive.google.com/file/d/1mbC-aFKY6_nBEzVhSqa1KPSpBdCt7SkG/view?usp=sharing), and the corresponding slides [here](https://drive.google.com/file/d/1L3-FofLnJ95TdMIuNemHfK0GhBG5LuSg/view?usp=sharing).
 
 
 ## Abstract
