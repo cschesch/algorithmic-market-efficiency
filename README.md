@@ -1,6 +1,6 @@
 # Algorithmic Market Efficiency - HEC Master Thesis
 
-In this repository, you can find the code for the Master Thesis _"Algorithmic Market Efficiency? Machine Learning, Outperformance and Arbitrage Activity along the Cross-Section of Stock Returns"_, which I wrote for the MSc in International Finance at HEC under thee supervision of Prof. Augustin Landier. You can find the thesis here, and the corresponding slides here.
+In this repository, you can find the code for the Master Thesis _"Algorithmic Market Efficiency? Machine Learning, Outperformance and Arbitrage Activity along the Cross-Section of Stock Returns"_, which I wrote for the MSc in International Finance at HEC under the supervision of Prof. Augustin Landier. You can find the thesis here, and the corresponding slides here.
 
 ## Abstract
 
@@ -8,16 +8,17 @@ The literature on market efficiency has historically focussed on how new informa
 
 ## Data and Data Sources
 
-I used several data sources for this project, which you well need to collect be able to run the code:
+I used several data sources for this project, which you will need to collect be able to run the code:
 
 1) Factors from Gu et al. (2020), which you can download for free from [Dacheng Xiu's webpage](https://dachxiu.chicagobooth.edu/) [3.49 GB]
 2) Returns from the CRSP Database, which you can download with a WRDS access [1.22 GB]
-3) Fama-French factors (both the 3-factor, 5-factor and momentum series), which you can download for free from [Kenneth French's webpage](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) [54 KB, 46KB and 20KB]
+3) The Fama-French 3-factor, 5-factor and momentum series, which you can download for free from [Kenneth French's webpage](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) [54 KB, 46KB and 20KB]
 4) Macroeconomic predictors, which you can download for free from [Amit Goyal's webpage](http://www.hec.unil.ch/agoyal/) [255 KB]
 5) The Compustat Supplemental Short Interest File, which you can download with a WRDS access [293 MB]
 6) The CRSP / Compustat Merged Security Monthly Dataset, which you can download with a WRDS access [3.55 GB]
 
-For each entry, you should download the full dataset covering all periods, tickers and variables.
+For each entry, you should download the full dataset covering all periods, tickers and variables. For the code to run, you need to put all of them into the data folder, with the names `factors.csv`, `factors.csv`, `ff.csv`, `ff5.csv`, `mom.csv`, `macropredictors.csv`, `shortinterest.csv` and `securitymonthly.csv`.
+
 
 ## Code Structure
 
@@ -31,3 +32,5 @@ There are three pieces of code saved as Jupyter Notebooks:
 analyze _market prescience_. It generates most of the graphs and tables used in the thesis itself, but should be reasonably quick to run.
 
 If you have any questions on the data, the code or even the thesis itself, feel free to message me at c.schesch@gmail.com.
+
+
